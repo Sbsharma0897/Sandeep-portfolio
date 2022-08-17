@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+		rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+		rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.text-prim {
+	color: #1280ee;
+}
+
+.text-sec {
+	color: beige;
+}
+
+.border-prim {
+	border-color: #1280ee !important;
+}
+
+.bg-prim {
+	background-color: #1280ee;
+}
+
+.bg-prim-gradient {
+	background-image: linear-gradient(to right, #10b8ef, #1280ee);
+}
+
+.school {
+	color: #1280ee;
+}
+
+.education-card,
+.contact-card {
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px,
+		rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px,
+		rgba(0, 0, 0, 0.07) 0px 16px 16px;
+	transition: 0.5s ease;
+}
+
+.education-card:hover,
+.contact-card:hover {
+	transform: translateY(-10px);
+	transition: 0.5s ease;
+	box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+		rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+		rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.course {
+	color: #1280ee;
+}
+
+.duration,
+.phone {
+	color: #10b8ef;
+}
+
+.project-title {
+	text-decoration: none;
+}
+.project-title:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+.email {
+	font-size: 1.5rem;
+	font-weight: 600;
+	text-decoration: none;
+	color: #10b8ef;
+}
